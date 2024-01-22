@@ -4,6 +4,7 @@
 @import "avatar";
 @import "button";
 @import "cards";
+@import "colors";
 @import "form_legend_clear";
 @import "navbar";
 
@@ -21,4 +22,8 @@ a {
 
 .container {
   max-width: 900px;
+}
+
+.breadcrumbs{
+  margin-bottom: 16px
 }

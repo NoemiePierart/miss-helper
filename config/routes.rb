@@ -4,9 +4,12 @@ Rails.application.routes.draw do
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
 
   get '/nos-produits', to: 'pages#index', as: :products
+  get 'comment-ca-marche', to: 'pages#about', as: :about
+  get '/kids', to: 'pages#kids', as: :kids
+  get '/ski', to: 'pages#ski', as: :ski
+  get '/high-tech', to: 'pages#high_tech', as: :high_tech
+  get 'padel', to: 'pages#padel', as: :padel
 
-  get '/gants-pour-enfants', to: 'products#gants', as: :gants
-  get '/raquettes-de-padel', to: 'rackets#index', as: :rackets
   # Defines the root path route ("/")
   # root "articles#index"
 end
