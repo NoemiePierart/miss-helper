@@ -3,5 +3,22 @@
 @import "banner";
 @import "avatar";
 @import "button";
+@import "cards";
 @import "form_legend_clear";
 @import "navbar";
+
+a {
+  text-decoration: none !important;
+  color: inherit !important;
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.section {
+  padding: 30px 4vw
+}
+
+.container {
+  max-width: 900px;
+}
